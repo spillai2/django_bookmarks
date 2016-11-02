@@ -7,6 +7,8 @@ from django.template import Context
 from django.template.loader import get_template
 
 # change function to write into template file
+# instead of embedding HTML in code
+
 def main_page(request):
 	#template = get_template('main_page.html')
 	variables = Context ({
