@@ -6,6 +6,7 @@ from django.http import HttpResponse
 from django.template import Context
 from django.template.loader import get_template
 
+# change function to write into template file
 def main_page(request):
 	#template = get_template('main_page.html')
 	variables = Context ({
